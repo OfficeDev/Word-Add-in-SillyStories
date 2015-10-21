@@ -1,0 +1,37 @@
+/*
+* Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license. See License.txt in the project root.
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+	overflow-x: hidden;
+}
+
+#content {
+    
+	top: 80px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+	padding: 15px;
+}
+
+#header {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto; 
+  	padding: 5px;
+    background-color: #0078d7;
+    color: #ffffff;
+/*    font-family: 'Segoe UI', Arial, Tahoma;*/
+    font-weight: 100;
+  	
+}
+
+#navigation {
+      padding: 15px;
+}

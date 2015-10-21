@@ -1,0 +1,20 @@
+<!-- Copyright (c) Microsoft. All rights reserved. Licensed under the MIT license.
+ See LICENSE in the project root for license information -->
+<?xml version="1.0" encoding="utf-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:type="TaskPaneApp">
+  <Id>a0e27db6-2647-4c5a-83b3-80056035d6f8</Id>
+  <Version>1.0</Version>
+  <ProviderName>Microsoft</ProviderName>
+  <DefaultLocale>EN-US</DefaultLocale>
+  <DisplayName DefaultValue="Silly stories add-in"/>
+  <Description DefaultValue="Make silly stories and laugh your head off."/>
+  <Hosts>
+    <Host Name="Document"/>
+  </Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="http://127.0.0.1:8080"/>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
