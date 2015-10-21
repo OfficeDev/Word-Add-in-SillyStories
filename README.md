@@ -1,6 +1,7 @@
 # Silly stories Word add-in sample: load files and use content controls
 
 This Word add-in will show you how to:
+
 1. Load a list of docx files from a service and populate a drop down box control with the file names as options.
 2. Load a docx file from the service and insert it into the Word document.
 3. Load the content control collection and create input boxes based on the content controls.
@@ -23,7 +24,7 @@ To use the Silly stories Word add-in sample, the following are required.
 2. Start the development server by running ```node server.js``` in the project's root directory. The add-in will be running at 127.0.0.1:8080.
 3. Create a network share, or [share a folder to the network](https://technet.microsoft.com/en-us/library/cc770880.aspx) and place the [word-add-in-sillystories.xml](word-add-in-sillystories.xml) manifest file in it. 
 
-At this point, you have your add-in deployed. Now you need to let Word know where to find the add-in.
+You've deployed your add-in at this point. Now you need to let Word know where to find the add-in.
 
 1. Launch Word and open a document.
 2. Choose the **File** tab, and then choose **Options**.
@@ -44,7 +45,7 @@ At this point, you have your add-in deployed. Now you need to let Word know wher
 
 __Figure 1. The Silly stories add-in loaded in Word__
 
-![Picture of the Word application with the Silly stories add-in loaded.](readme-images/sillystoriesUI.png "A Word add-in for loading docs files that'll make you smile.")
+![Picture of the Word application with the Silly stories add-in loaded.](./readme-images/sillystoriesUI.png "A Word add-in for loading docs files that'll make you smile.")
 
 ## Questions and comments
 
