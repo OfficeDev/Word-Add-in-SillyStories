@@ -45,7 +45,7 @@ You've deployed your add-in at this point. Now you need to let Word know where t
 
 __Figure 1. The Silly stories add-in loaded in Word__
 
-![Picture of the Word application with the Silly stories add-in loaded.](./readme-images/sillystoriesUI.png)
+![Picture of the Word application with the Silly stories add-in loaded](./readme-images/sillystoriesUI.png)
 
 ## Questions and comments
 
