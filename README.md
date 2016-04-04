@@ -16,6 +16,7 @@ To use the Silly stories Word add-in sample, the following are required.
 
 * [node.js](https://nodejs.org) to serve up the docx files.
 * [npm](https://www.npmjs.com/) to install the dependencies.
+* JQuery, for the Fabric dropdown component.
 * Word 2016, or any client that supports the Word Javascript API. This sample does a requirement check to see if it is running in a supported host.
 
 ## Start the web application
