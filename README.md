@@ -18,23 +18,29 @@ To use the Silly stories Word add-in sample, the following are required.
 * [npm](https://www.npmjs.com/) to install the dependencies.
 * Word 2016, or any client that supports the Word Javascript API. This sample does a requirement check to see if it is running in a supported host.
 
-## Configure the add-in and Word
+## Start the web application
 
 1. Install project dependencies with Node's package manager (npm) by running ```npm install``` in the project's root directory on the command line.
 2. Start the development server by running ```node server.js``` in the project's root directory. The add-in will be running at 127.0.0.1:8080.
-3. Create a network share, or [share a folder to the network](https://technet.microsoft.com/en-us/library/cc770880.aspx) and place the [word-add-in-sillystories.xml](word-add-in-sillystories.xml) manifest file in it. 
 
-You've deployed your add-in at this point. Now you need to let Word know where to find the add-in.
+### Configure and run on Word for Mac 2016
 
-1. Launch Word and open a document.
-2. Choose the **File** tab, and then choose **Options**.
-3. Choose **Trust Center**, and then choose the **Trust Center Settings** button.
-4. Choose **Trusted Add-ins Catalogs**.
-5. In the **Catalog Url** box, enter the network path to the folder share that contains word-add-in-sillystories.xml and then choose **Add Catalog**.
-6. Select the **Show in Menu** check box, and then choose **OK**.
-7. A message is displayed to inform you that your settings will be applied the next time you start Office. Close and restart Word. 
+1. Create a folder called “wef” in Users/Library/Containers/com.microsoft.word/Data/Documents/
+2. Put the manifest in the wef folder (Users/Library/Containers/com.microsoft.word/Data/Documents/wef)
+3. Open Word 2016 on the Mac and click on the Insert tab > My Add-ins drop down. You should see the add-in listed in the drop down. Select it and it will load the add-in.
 
-## Run the add-in
+### Configure and run on Word for Windows 2016
+
+1. Create a network share, or [share a folder to the network](https://technet.microsoft.com/en-us/library/cc770880.aspx) and place the [word-add-in-sillystories.xml](word-add-in-sillystories.xml) manifest file in it. You've deployed your add-in at this point. Now you need to let Word know where to find the add-in.
+2. Launch Word and open a document.
+3. Choose the **File** tab, and then choose **Options**.
+4. Choose **Trust Center**, and then choose the **Trust Center Settings** button.
+5. Choose **Trusted Add-ins Catalogs**.
+6. In the **Catalog Url** box, enter the network path to the folder share that contains word-add-in-sillystories.xml and then choose **Add Catalog**.
+7. Select the **Show in Menu** check box, and then choose **OK**.
+8. A message is displayed to inform you that your settings will be applied the next time you start Office. Close and restart Word. 
+
+Now you are ready to run it in Word. 
 
 1. Open a Word document. 
 2. On the **Insert** tab in Word 2016, choose **My Add-ins**. 
@@ -57,6 +63,7 @@ Questions about add-in development in general should be posted to [Stack Overflo
 
 Here are more resources to help you create Word Javascript API based add-ins:
 
+* [Sideload an Office Add-in on iPad and Mac](dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
 * [Office Add-ins platform overview](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
 * [Word add-ins](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins.md)
 * [Word add-ins programming overview](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins-programming-guide.md)
