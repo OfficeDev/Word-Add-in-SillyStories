@@ -21,7 +21,7 @@ Para usar o Exemplo de suplemento do Word Histórias engraçadas, são necessár
 
 ## Iniciar o aplicativo Web
 
-1. Instale as dependências do projeto com o NPM (Gerenciador de Pacotes de Nós) executando ```npm install``` no diretório raiz do projeto, na linha de comando.
+1. Instale as dependências do projeto com o NPM (Gerenciador de Pacotes de Node) executando ```npm install``` no diretório raiz do projeto, na linha de comando.
 2. Inicie o servidor de desenvolvimento executando ```node server.js``` no diretório raiz do projeto. O suplemento será executado em 127.0.0.1:8080.
 
 ### Configurar e executar no Word para Mac 2016
