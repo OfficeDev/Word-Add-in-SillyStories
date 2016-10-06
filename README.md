@@ -64,7 +64,7 @@ Questions about add-in development in general should be posted to [Stack Overflo
 
 Here are more resources to help you create Word Javascript API based add-ins:
 
-* [Sideload an Office Add-in on iPad and Mac](dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
+* [Sideload an Office Add-in on iPad and Mac](http://dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
 * [Office Add-ins platform overview](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
 * [Word add-ins](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins.md)
 * [Word add-ins programming overview](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins-programming-guide.md)
