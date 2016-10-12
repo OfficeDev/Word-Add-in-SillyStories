@@ -64,7 +64,7 @@
 
 以下是更多的资源，可帮助你创建基于 Word Javascript API 的外接程序：
 
-* [将 Office 外接程序旁加载到 iPad 和 Mac 上](dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
+* [将 Office 外接程序旁加载到 iPad 和 Mac 上](http://dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
 * [Office 外接程序平台概述](https://msdn.microsoft.com/zh-cn/library/office/jj220082.aspx)
 * [Word 外接程序](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins.md)
 * [Word 外接程序编程概述](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins-programming-guide.md)

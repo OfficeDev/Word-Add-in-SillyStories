@@ -64,7 +64,7 @@ Si vous avez des questions générales sur le développement de compléments, en
 
 Voici des ressources supplémentaires pour vous aider à créer des compléments basés sur l’API JavaScript de Word :
 
-* [Charger une version test d’un complément Office sur iPad ou Mac](dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
+* [Charger une version test d’un complément Office sur iPad ou Mac](http://dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
 * [Vue d’ensemble de la plateforme des compléments pour Office](https://msdn.microsoft.com/fr-fr/library/office/jj220082.aspx)
 * [Compléments Word](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins.md)
 * [Présentation de la programmation JavaScript pour les compléments Word](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins-programming-guide.md)

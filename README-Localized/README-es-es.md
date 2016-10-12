@@ -64,7 +64,7 @@ Las preguntas generales sobre desarrollo de complementos deben publicarse en [St
 
 Aquí tiene más recursos para ayudarle a crear complementos basados en la API de JavaScript de Word:
 
-* [Transferir localmente un complemento de Office a iPad y Mac](dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
+* [Transferir localmente un complemento de Office a iPad y Mac](http://dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
 * [Información general sobre la plataforma de complementos de Office](https://msdn.microsoft.com/es-es/library/office/jj220082.aspx)
 * [Complementos de Word](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins.md)
 * [Introducción a la programación de complementos de Word](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins-programming-guide.md)

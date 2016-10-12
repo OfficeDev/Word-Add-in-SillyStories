@@ -64,7 +64,7 @@
 
 Ниже представлены дополнительные ресурсы, посвященные созданию надстроек на основе API JavaScript для Word.
 
-* [Загрузка неопубликованной надстройки Office на iPad и Mac](dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
+* [Загрузка неопубликованной надстройки Office на iPad и Mac](http://dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
 * [Обзор платформы надстроек Office](https://msdn.microsoft.com/ru-ru/library/office/jj220082.aspx)
 * [Надстройки Word](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins.md)
 * [Общие сведения о создании надстроек Word](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins-programming-guide.md)

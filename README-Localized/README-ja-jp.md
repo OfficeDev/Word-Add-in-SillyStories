@@ -64,7 +64,7 @@ Silly stories Word アドイン サンプルについて、Microsoft にフィ�
 
 Word Javascript API ベースのアドインを作成するのに役立つその他のリソースを以下に示します。
 
-* [iPad と Mac で Office アドインをサイドロードする](dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
+* [iPad と Mac で Office アドインをサイドロードする](http://dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
 * [Office アドイン プラットフォームの概要](https://msdn.microsoft.com/ja-jp/library/office/jj220082.aspx)
 * [Word アドイン](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins.md)
 * [Word アドインのプログラミングの概要](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins-programming-guide.md)
