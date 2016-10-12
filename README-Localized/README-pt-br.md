@@ -64,7 +64,7 @@ As perguntas sobre o desenvolvimento de suplementos em geral devem ser postadas 
 
 Veja mais recursos para ajudá-lo a criar suplementos baseados na API Javascript do Word:
 
-* [Realizar sideload de um suplemento do Office no iPad e Mac](dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
+* [Realizar sideload de um suplemento do Office no iPad e Mac](http://dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
 * [Visão geral da plataforma de Suplementos do Office](https://msdn.microsoft.com/pt-br/library/office/jj220082.aspx)
 * [Suplementos do Word](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins.md)
 * [Visão geral da programação de suplementos do Word](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins-programming-guide.md)

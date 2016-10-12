@@ -64,7 +64,7 @@
 
 這裡有更多的資源，可協助您建立以 Word Javascript API 為基礎的增益集︰
 
-* [在 iPad 和 Mac 上側載 Office 增益集](dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
+* [在 iPad 和 Mac 上側載 Office 增益集](http://dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
 * [Office 增益集平台概觀](https://msdn.microsoft.com/zh-tw/library/office/jj220082.aspx)
 * [Word 增益集](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins.md)
 * [Word 增益集程式設計概觀](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins-programming-guide.md)
