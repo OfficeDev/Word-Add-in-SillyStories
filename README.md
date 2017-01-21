@@ -47,7 +47,7 @@ Now you are ready to run it in Word.
 2. On the **Insert** tab in Word 2016, choose **My Add-ins**. 
 3. Select the **Shared folder** tab.
 4. Choose **Silly stories add-in**, and then select **Insert**.
-5. The add-in will load in a task pane. See figure 1 to see how it will look when it gets loaded.
+5. A new group called **Word Add-in** will appear on the **Home** tab. The group has a button named **Silly Stories**. (These are not seen in the screen shot.) Click this button to open the add-in task pane.
 6. Select a story,  to have boilerplate text entered into the Word document.
 
 __Figure 1. The Silly stories add-in loaded in Word__
