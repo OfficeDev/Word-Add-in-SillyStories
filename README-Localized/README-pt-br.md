@@ -1,4 +1,4 @@
-# Exemplo de suplemento do Word Histórias engraçadas: carregar arquivos e usar controles de conteúdo
+# <a name="silly-stories-word-add-in-sample-load-files-and-use-content-controls"></a>Exemplo de suplemento do Word Histórias engraçadas: carregar arquivos e usar controles de conteúdo
 
 Este suplemento do Word mostrará como:
 
@@ -10,7 +10,7 @@ Este suplemento do Word mostrará como:
 
 > Observação: Uma risada é um dos efeitos colaterais da execução deste exemplo.
 
-## Pré-requisitos
+## <a name="prerequisites"></a>Pré-requisitos
 
 Para usar o Exemplo de suplemento do Word Histórias engraçadas, são necessários.
 
@@ -19,20 +19,20 @@ Para usar o Exemplo de suplemento do Word Histórias engraçadas, são necessár
 * JQuery, para o componente [suspenso](dev.office.com/fabric/components/dropdown) do Office UI Fabric.
 * Word 2016 ou qualquer cliente que ofereça suporte à API Javascript do Word. Este exemplo faz uma verificação de requisitos para ver se ele está sendo executado em um host compatível.
 
-## Iniciar o aplicativo Web
+## <a name="start-the-web-application"></a>Iniciar o aplicativo Web
 
-1. Instale as dependências do projeto com o NPM (Gerenciador de Pacotes de Node) executando ```npm install``` no diretório raiz do projeto, na linha de comando.
+1. Instale as dependências do projeto com o NPM (Gerenciador de Pacotes de Nós) executando ```npm install``` no diretório raiz do projeto, na linha de comando.
 2. Inicie o servidor de desenvolvimento executando ```node server.js``` no diretório raiz do projeto. O suplemento será executado em 127.0.0.1:8080.
 
-### Configurar e executar no Word para Mac 2016
+### <a name="configure-and-run-on-word-for-mac-2016"></a>Configurar e executar no Word para Mac 2016
 
 1. Crie uma pasta chamada "wef" em Users/Library/Containers/com.microsoft.word/Data/Documents/
 2. Coloque o manifesto na pasta wef (Users/Library/Containers/com.microsoft.word/Data/Documents/wef)
 3. Abra o Word 2016 no Mac e clique na guia Inserir > menu suspenso Meus Suplementos. Você deverá ver o suplemento listado no menu suspenso. Selecione-o e ele carregará o suplemento.
 
-### Configurar e executar no Word para Windows 2016
+### <a name="configure-and-run-on-word-for-windows-2016"></a>Configurar e executar no Word para Windows 2016
 
-1. Crie um compartilhamento de rede ou [compartilhe uma pasta para a rede](https://technet.microsoft.com/pt-br/library/cc770880.aspx) e coloque o arquivo de manifesto [word-add-in-sillystories.xml](word-add-in-sillystories.xml) nele. Nesse momento, você implantou seu suplemento. Agora, você precisa informar ao Word onde encontrar o suplemento.
+1. Crie um compartilhamento de rede ou [compartilhe uma pasta para a rede](https://technet.microsoft.com/en-us/library/cc770880.aspx) e coloque o arquivo de manifesto [word-add-in-sillystories.xml](word-add-in-sillystories.xml) nele. Nesse momento, você implantou seu suplemento. Agora, você precisa informar ao Word onde encontrar o suplemento.
 2. Inicie o Word e abra um documento.
 3. Escolha a guia **Arquivo** e escolha **Opções**.
 4. Escolha **Central de Confiabilidade**, e escolha o botão **Configurações da Central de Confiabilidade**.
@@ -46,30 +46,31 @@ Agora você está pronto para executá-lo no Word.
 1. Abra um documento do Word. 
 2. Na guia **Inserir** no Word 2016, escolha **Meus Suplementos**. 
 3. Selecione a guia **Pasta compartilhada**.
-4. Escolha o **suplemento Silly stories** e **Inserir**.
-5. O suplemento será carregado em um painel de tarefas. Confira a figura 1 para ver qual será sua aparência dele quando ele for carregado.
+4. Escolha o **suplemento Histórias engraçadas** e selecione **Inserir**.
+5. Um novo grupo chamado **Suplemento do Word** aparecerá na guia **Página Inicial**. O grupo tem um botão chamado **Histórias engraçadas**. (Não aparecem na captura de tela.) Clique neste botão para abrir o painel de tarefas do suplemento.
 6. Selecione uma história para que o texto clichê seja inserido no documento do Word.
 
-**Figura 1. O suplemento Histórias engraçadas carregado no Word**
+__Figura 1. O suplemento Histórias engraçadas carregado no Word__
 
-![Imagem do aplicativo do Word com o suplemento Histórias engraçadas carregado](../readme-images/sillystoriesUI.PNG)
+![Imagem do aplicativo Word com o suplemento Histórias engraçadas carregado](./readme-images/sillystoriesUI.PNG)
 
-## Perguntas e comentários
+## <a name="questions-and-comments"></a>Perguntas e comentários
 
 Gostaríamos de saber sua opinião sobre o exemplo de suplemento do Word Histórias engraçadas. Você pode enviar perguntas e sugestões na seção [Problemas](https://github.com/OfficeDev/Word-Add-in-SIllyStories/issues) deste repositório.
 
 As perguntas sobre o desenvolvimento de suplementos em geral devem ser postadas no [Stack Overflow](http://stackoverflow.com/questions/tagged/Office365+API). Não deixe de marcar as perguntas ou comentários com [office-js], [word] e [API].
 
-## Saiba mais
+## <a name="learn-more"></a>Learn more
 
 Veja mais recursos para ajudá-lo a criar suplementos baseados na API Javascript do Word:
 
-* [Realizar sideload de um suplemento do Office no iPad e Mac](http://dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
-* [Visão geral da plataforma de Suplementos do Office](https://msdn.microsoft.com/pt-br/library/office/jj220082.aspx)
+* [Realizar sideload de um suplemento do Office no iPad e no Mac](http://dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
+* 
+  [Visão geral da plataforma de Suplementos do Office](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
 * [Suplementos do Word](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins.md)
 * [Visão geral da programação de suplementos do Word](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins-programming-guide.md)
 * [Explorador de trecho para Word](http://officesnippetexplorer.azurewebsites.net/#/snippets/word)
 * [Referência da API JavaScript para suplementos do Word](https://github.com/OfficeDev/office-js-docs/tree/master/word/word-add-ins-javascript-reference)
 
-## Direitos autorais
+## <a name="copyright"></a>Direitos autorais
 Copyright © 2015 Microsoft. Todos os direitos reservados.
