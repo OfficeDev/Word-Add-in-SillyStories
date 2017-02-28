@@ -32,7 +32,7 @@
 
 ### <a name="configure-and-run-on-word-for-windows-2016"></a>在 Word for Windows 2016 上設定和執行
 
-1. 建立網路共用，或[共用網路資料夾](https://technet.microsoft.com/en-us/library/cc770880.aspx)，並將 [word-add-in-sillystories.xml](word-add-in-sillystories.xml) 資訊清單檔案放置在其中。您已經在這個時候部署您的增益集。現在，您需要讓 Word 知道哪裡可以找到此增益集。
+1. 建立網路共用，或[共用網路資料夾](https://technet.microsoft.com/zh-tw/library/cc770880.aspx)，並將 [word-add-in-sillystories.xml](word-add-in-sillystories.xml) 資訊清單檔案放置在其中。您已經在這個時候部署您的增益集。現在，您需要讓 Word 知道哪裡可以找到此增益集。
 2. 啟動 Word 並開啟一個文件。
 3. 選擇 [檔案]**** 索引標籤，然後選擇 [選項]****。
 4. 選擇 [信任中心]****，然後選擇 [信任中心設定]**** 按鈕。
@@ -52,7 +52,7 @@
 
 __圖 1。已載入至 Word 的愚蠢的故事增益集__
 
-![已載入愚蠢的故事增益集的 Word 應用程式的圖片](./readme-images/sillystoriesUI.PNG)
+![已載入愚蠢的故事增益集的 Word 應用程式的圖片](../readme-images/sillystoriesUI.PNG)
 
 ## <a name="questions-and-comments"></a>問題和建議
 
@@ -66,7 +66,7 @@ __圖 1。已載入至 Word 的愚蠢的故事增益集__
 
 * [在 iPad 和 Mac 上側載 Office 增益集](http://dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
 * 
-  [Office 增益集平台概觀](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
+  [Office 增益集平台概觀](https://msdn.microsoft.com/zh-tw/library/office/jj220082.aspx)
 * [Word 增益集](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins.md)
 * [Word 增益集程式設計概觀](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins-programming-guide.md)
 * [Word 的程式碼片段總管](http://officesnippetexplorer.azurewebsites.net/#/snippets/word)

@@ -32,7 +32,7 @@ Para usar o Exemplo de suplemento do Word Histórias engraçadas, são necessár
 
 ### <a name="configure-and-run-on-word-for-windows-2016"></a>Configurar e executar no Word para Windows 2016
 
-1. Crie um compartilhamento de rede ou [compartilhe uma pasta para a rede](https://technet.microsoft.com/en-us/library/cc770880.aspx) e coloque o arquivo de manifesto [word-add-in-sillystories.xml](word-add-in-sillystories.xml) nele. Nesse momento, você implantou seu suplemento. Agora, você precisa informar ao Word onde encontrar o suplemento.
+1. Crie um compartilhamento de rede ou [compartilhe uma pasta para a rede](https://technet.microsoft.com/pt-br/library/cc770880.aspx) e coloque o arquivo de manifesto [word-add-in-sillystories.xml](word-add-in-sillystories.xml) nele. Nesse momento, você implantou seu suplemento. Agora, você precisa informar ao Word onde encontrar o suplemento.
 2. Inicie o Word e abra um documento.
 3. Escolha a guia **Arquivo** e escolha **Opções**.
 4. Escolha **Central de Confiabilidade**, e escolha o botão **Configurações da Central de Confiabilidade**.
@@ -52,7 +52,7 @@ Agora você está pronto para executá-lo no Word.
 
 __Figura 1. O suplemento Histórias engraçadas carregado no Word__
 
-![Imagem do aplicativo Word com o suplemento Histórias engraçadas carregado](./readme-images/sillystoriesUI.PNG)
+![Imagem do aplicativo Word com o suplemento Histórias engraçadas carregado](../readme-images/sillystoriesUI.PNG)
 
 ## <a name="questions-and-comments"></a>Perguntas e comentários
 
@@ -66,7 +66,7 @@ Veja mais recursos para ajudá-lo a criar suplementos baseados na API Javascript
 
 * [Realizar sideload de um suplemento do Office no iPad e no Mac](http://dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
 * 
-  [Visão geral da plataforma de Suplementos do Office](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
+  [Visão geral da plataforma de Suplementos do Office](https://msdn.microsoft.com/pt-br/library/office/jj220082.aspx)
 * [Suplementos do Word](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins.md)
 * [Visão geral da programação de suplementos do Word](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins-programming-guide.md)
 * [Explorador de trecho para Word](http://officesnippetexplorer.azurewebsites.net/#/snippets/word)

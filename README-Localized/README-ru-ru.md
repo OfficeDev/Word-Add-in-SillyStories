@@ -32,7 +32,7 @@
 
 ### <a name="configure-and-run-on-word-for-windows-2016"></a>Настройка и запуск в Word для Windows 2016
 
-1. Создайте сетевую папку или [откройте доступ к папке в сети](https://technet.microsoft.com/en-us/library/cc770880.aspx) и поместите в нее файл манифеста [word-add-in-sillystories.xml](word-add-in-sillystories.xml). Вы только что развернули надстройку. Теперь необходимо сообщить Word, где она находится.
+1. Создайте сетевую папку или [откройте доступ к папке в сети](https://technet.microsoft.com/ru-ru/library/cc770880.aspx) и поместите в нее файл манифеста [word-add-in-sillystories.xml](word-add-in-sillystories.xml). Вы только что развернули надстройку. Теперь необходимо сообщить Word, где она находится.
 2. Запустите Word и откройте документ.
 3. Перейдите на вкладку **Файл**, а затем выберите **Параметры**.
 4. Выберите **Центр управления безопасностью**, а затем нажмите кнопку **Параметры центра управления безопасностью**.
@@ -52,7 +52,7 @@
 
 __Рис. 1. Надстройка "Silly stories", загруженная в Word__
 
-![Изображение приложения Word с загруженной надстройкой "Silly stories"](./readme-images/sillystoriesUI.PNG)
+![Изображение приложения Word с загруженной надстройкой "Silly stories"](../readme-images/sillystoriesUI.PNG)
 
 ## <a name="questions-and-comments"></a>Вопросы и комментарии
 
@@ -66,7 +66,7 @@ __Рис. 1. Надстройка "Silly stories", загруженная в Wo
 
 * [Загрузка неопубликованной надстройки Office на iPad и Mac](http://dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
 * 
-  [Обзор платформы надстроек Office](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
+  [Обзор платформы надстроек Office](https://msdn.microsoft.com/ru-ru/library/office/jj220082.aspx)
 * [Надстройки Word](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins.md)
 * [Общие сведения о создании надстроек Word](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins-programming-guide.md)
 * [Обозреватель фрагментов кода для Word](http://officesnippetexplorer.azurewebsites.net/#/snippets/word)

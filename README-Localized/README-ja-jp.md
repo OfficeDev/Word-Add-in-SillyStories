@@ -32,7 +32,7 @@ Silly stories Word アドイン サンプルを使用するには、以下が必
 
 ### <a name="configure-and-run-on-word-for-windows-2016"></a>Word for Windows 2016 の構成および実行
 
-1. ネットワーク共有を作成するか、[ネットワークでフォルダーを共有し](https://technet.microsoft.com/en-us/library/cc770880.aspx)、そのフォルダーに [word-add-in-sillystories.xml](word-add-in-sillystories.xml) マニフェスト ファイルを配置します。この時点でアドインは展開されました。次に、Word がアドインを検索する場所を認識できるようにする必要があります。
+1. ネットワーク共有を作成するか、[ネットワークでフォルダーを共有し](https://technet.microsoft.com/ja-jp/library/cc770880.aspx)、そのフォルダーに [word-add-in-sillystories.xml](word-add-in-sillystories.xml) マニフェスト ファイルを配置します。この時点でアドインは展開されました。次に、Word がアドインを検索する場所を認識できるようにする必要があります。
 2. Word を起動し、ドキュメントを開きます。
 3. [**ファイル**] タブを選択し、[**オプション**] を選択します。
 4. [**セキュリティ センター**] を選択し、[**セキュリティ センターの設定**] ボタンを選択します。
@@ -52,7 +52,7 @@ Silly stories Word アドイン サンプルを使用するには、以下が必
 
 __図 1.Word に読み込まれた Silly stories アドイン__
 
-![Silly stories アドインが読み込まれた Word アプリケーションの画像](./readme-images/sillystoriesUI.PNG)
+![Silly stories アドインが読み込まれた Word アプリケーションの画像](../readme-images/sillystoriesUI.PNG)
 
 ## <a name="questions-and-comments"></a>質問とコメント
 
@@ -66,7 +66,7 @@ Word JavaScript API ベースのアドインを作成するのに役立つその
 
 * [iPad または Mac で Office アドインをサイドロードする](http://dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
 * 
-  [Office アドイン プラットフォームの概要](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
+  [Office アドイン プラットフォームの概要](https://msdn.microsoft.com/ja-jp/library/office/jj220082.aspx)
 * [Word アドイン](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins.md)
 * [Word アドインのプログラミングの概要](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins-programming-guide.md)
 * [Word のスニペット エクスプローラー](http://officesnippetexplorer.azurewebsites.net/#/snippets/word)

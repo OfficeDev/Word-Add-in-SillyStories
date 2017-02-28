@@ -32,7 +32,7 @@
 
 ### <a name="configure-and-run-on-word-for-windows-2016"></a>在 Word for Windows 2016 上配置并运行
 
-1. 创建网络共享，或[将文件夹共享到网络](https://technet.microsoft.com/en-us/library/cc770880.aspx)，并将 [word-add-in-sillystories.xml](word-add-in-sillystories.xml) 清单文件放入该文件夹中。此时，你已部署了外接程序。现在，你需要让 Word 知道在哪里可以找到该外接程序。
+1. 创建网络共享，或[将文件夹共享到网络](https://technet.microsoft.com/zh-cn/library/cc770880.aspx)，并将 [word-add-in-sillystories.xml](word-add-in-sillystories.xml) 清单文件放入该文件夹中。此时，你已部署了外接程序。现在，你需要让 Word 知道在哪里可以找到该外接程序。
 2. 启动 Word，然后打开一个文档。
 3. 选择**文件**选项卡，然后选择**选项**。
 4. 选择**信任中心**，然后选择**信任中心设置**按钮。
@@ -52,7 +52,7 @@
 
 __图 1.加载到 Word 中的 Silly stories 外接程序__
 
-![加载了 Silly stories 外接程序的 Word 应用程序的图片](./readme-images/sillystoriesUI.PNG)
+![加载了 Silly stories 外接程序的 Word 应用程序的图片](../readme-images/sillystoriesUI.PNG)
 
 ## <a name="questions-and-comments"></a>问题和意见
 
@@ -66,7 +66,7 @@ __图 1.加载到 Word 中的 Silly stories 外接程序__
 
 * [将 Office 外接程序旁加载到 iPad 和 Mac 上](http://dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
 * 
-  [Office 外接程序平台概述](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
+  [Office 外接程序平台概述](https://msdn.microsoft.com/zh-cn/library/office/jj220082.aspx)
 * [Word 外接程序](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins.md)
 * [Word 外接程序编程概述](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins-programming-guide.md)
 * [适用于 Word 的代码段资源管理器](http://officesnippetexplorer.azurewebsites.net/#/snippets/word)

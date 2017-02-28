@@ -32,7 +32,7 @@ Für die Verwendung des Word-Add-In-Beispiels „Alberne Geschichten“ gelten f
 
 ### <a name="configure-and-run-on-word-for-windows-2016"></a>Konfigurieren und Ausführen unter Word für Windows 2016
 
-1. Erstellen Sie eine Netzwerkfreigabe oder [geben Sie einen Ordner im Netzwerk frei](https://technet.microsoft.com/en-us/library/cc770880.aspx), und platzieren Sie die [word-add-in-sillystories.xml](word-add-in-sillystories.xml)-Manifestdatei darin. Sie haben nun Ihr Add-In bereitgestellt. Jetzt müssen Sie Word mitteilen, wo es das Add-In finden kann.
+1. Erstellen Sie eine Netzwerkfreigabe oder [geben Sie einen Ordner im Netzwerk frei](https://technet.microsoft.com/de-de/library/cc770880.aspx), und platzieren Sie die [word-add-in-sillystories.xml](word-add-in-sillystories.xml)-Manifestdatei darin. Sie haben nun Ihr Add-In bereitgestellt. Jetzt müssen Sie Word mitteilen, wo es das Add-In finden kann.
 2. Starten Sie Word, und öffnen Sie ein Dokument.
 3. Klicken Sie auf die Registerkarte **Datei**, und klicken Sie dann auf **Optionen**.
 4. Wählen Sie **Sicherheitscenter** aus, und klicken Sie dann auf die Schaltfläche **Einstellungen für das Sicherheitscenter**.
@@ -52,7 +52,7 @@ Nun können Sie es in Word ausführen.
 
 __Abbildung 1. Das in Word geladene Add-In „Alberne Geschichten“__
 
-![Abbildung der Word-Anwendung mit geladenem Add-In „Alberne Geschichten“](./readme-images/sillystoriesUI.PNG)
+![Abbildung der Word-Anwendung mit geladenem Add-In „Alberne Geschichten“](../readme-images/sillystoriesUI.PNG)
 
 ## <a name="questions-and-comments"></a>Fragen und Kommentare
 
@@ -66,7 +66,7 @@ Hier noch einige weitere Ressourcen zum Erstellen von Add-Ins auf Basis von Word
 
 * [Querladen eines Office-Add-Ins auf einem iPad und einem Mac-Computer](http://dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
 * 
-  [Office-Add-Ins-Plattformübersicht](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
+  [Office-Add-Ins-Plattformübersicht](https://msdn.microsoft.com/de-de/library/office/jj220082.aspx)
 * [Word-Add-Ins](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins.md)
 * [Programmierungsübersicht für Word-Add-Ins](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins-programming-guide.md)
 * [Codeausschnitt-Explorer für Word](http://officesnippetexplorer.azurewebsites.net/#/snippets/word)

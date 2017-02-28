@@ -32,7 +32,7 @@ Para usar el ejemplo del complemento Silly stories de Word, se requiere lo sigui
 
 ### <a name="configure-and-run-on-word-for-windows-2016"></a>Configurar y ejecutar en Word para Windows 2016
 
-1. Cree un recurso compartido de red o [comparta una carpeta en la red](https://technet.microsoft.com/en-us/library/cc770880.aspx) y coloque el archivo de manifiesto [word-add-in-sillystories.xml](word-add-in-sillystories.xml) en él. En este momento, ha implementado el complemento. Ahora debe indicarle a Word dónde encontrar el complemento.
+1. Cree un recurso compartido de red o [comparta una carpeta en la red](https://technet.microsoft.com/es-es/library/cc770880.aspx) y coloque el archivo de manifiesto [word-add-in-sillystories.xml](word-add-in-sillystories.xml) en él. En este momento, ha implementado el complemento. Ahora debe indicarle a Word dónde encontrar el complemento.
 2. Inicie Word y abra un documento.
 3. Seleccione la pestaña **Archivo** y haga clic en **Opciones**.
 4. Haga clic en **Centro de confianza** y seleccione el botón **Configuración del Centro de confianza**.
@@ -52,7 +52,7 @@ Ahora está listo para ejecutarlo en Word.
 
 __Figura 1. Complemento Silly stories cargado en Word__
 
-![Imagen de la aplicación de Word con el complemento Silly stories cargado](./readme-images/sillystoriesUI.PNG)
+![Imagen de la aplicación de Word con el complemento Silly stories cargado](../readme-images/sillystoriesUI.PNG)
 
 ## <a name="questions-and-comments"></a>Preguntas y comentarios
 
@@ -66,7 +66,7 @@ Aquí encontrará más recursos para que le resulte más fácil crear complement
 
 * [Transferir localmente un complemento de Office a iPad y Mac](http://dev.office.com/docs/add-ins/testing/sideload-an-office-add-in-on-ipad-and-mac)
 * 
-  [Información general sobre la plataforma de complementos de Office](https://msdn.microsoft.com/EN-US/library/office/jj220082.aspx)
+  [Información general sobre la plataforma de complementos de Office](https://msdn.microsoft.com/es-es/library/office/jj220082.aspx)
 * [Complementos de Word](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins.md)
 * [Introducción a la programación de complementos de Word](https://github.com/OfficeDev/office-js-docs/blob/master/word/word-add-ins-programming-guide.md)
 * [Explorador de fragmentos de código para Word](http://officesnippetexplorer.azurewebsites.net/#/snippets/word)
