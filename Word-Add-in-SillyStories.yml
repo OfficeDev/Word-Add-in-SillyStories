@@ -1,0 +1,19 @@
+### YamlMime:Sample
+sample:
+- name: 'Word add-in: Load files and use content controls'
+  path: ''
+  description: This sample shows you how to load a list of docx files into a drop-down box, insert text into the Word document, load the content control collection, create input boxes, update text values. This sample uses Office UI Fabric to create a seamless Word user experience. And it giggles.
+  readme: ''
+  generateZip: FALSE
+  isLive: TRUE
+  technologies:
+  - Office Add-ins
+  azureDeploy: ''
+  author: MIchaelMainer
+  platforms: []
+  languages:
+  - JavaScript
+  extensions:
+    products:
+    - Word
+    scenarios: []
