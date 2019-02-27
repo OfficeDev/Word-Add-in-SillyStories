@@ -1,3 +1,16 @@
+---
+topic: sample
+products:
+- Word
+- Office 365
+languages:
+- JavaScript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 10/21/2015 10:22:53 AM
+---
 # Silly stories Word add-in sample: load files and use content controls
 
 This Word add-in will show you how to:
